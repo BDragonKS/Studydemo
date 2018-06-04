@@ -1,0 +1,73 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    ext.kotlin_version = '1.2.41'
+    ext.anko_version = '0.9.1'
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+//        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext{
+    //SDK
+    minSdkVersion = 21
+    targetSdkVersion = 23
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+
+    //dependencies
+    supportV4LibraryVersion ='27.1.1'
+    design_version ='27.1.1'
+    supportV7LibraryVersion ='27.1.1'
+    butterknifeVersion = '8.6.0'
+    butterknifeCompilerVersion = '8.6.0'
+    junitVersion = '4.12'
+    multidexVersion = '1.0.3'
+    mapVersion = '6.0.1'
+    searchVersion = '5.7.0'
+    daggerVersion = '2.7'
+    daggerCompilerVersion = '2.7'
+    MPAndroidChartVersion = 'v3.0.3'
+    constraintLayoutVersion = '1.1.0'
+    litepalVersion = '1.6.0'
+    retrofit2Version = '2.3.0'
+    okhttp3Version = '3.8.1'
+    okhttp3LoggingInterceptorVersion = '3.8.1'
+    persistentCookieJarVersion = 'v1.0.1'
+    rxjava2Version = '2.1.1'
+    rxjava2RxandroidVersion = '2.0.1'
+    retrofit2ConverterGsonVersion = '2.3.0'
+    retrofit2AdapterRxjava2Version = '2.3.0'
+    glideVersion = '3.7.0'
+    baseRecyclerViewAdapterHelperVersion = '2.9.22'
+    easySwipeMenuLayoutVersion = '1.0.6'
+    androidShapeLoadingViewVersion = '1.0.3.2'
+    fastjsonAndroidVersion = '2.1.0'
+    zloadingVersion = '1.0.5'
+    bannerVersion = '1.4.10'
+    treeview_version = '1.0.3'
+    MPAndroidChartVersion = 'v3.0.3'
+    permissionsdispatcherVersion = '3.2.0'
+}

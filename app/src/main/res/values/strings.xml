@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Studydemo</string>
+    <string name="title_activity_main">Study</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Study</string>
+    <string name="nav_header_subtitle">ljhl520@foxmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="nav_menu_demo_title">Demo</string>
+    <string name="nav_menu_demo_title_kotlin">Kotlin</string>
+    <string name="nav_menu_demo_title_tree">Tree</string>
+    <string name="nav_menu_demo_title_web_view">WebView</string>
+
+    <!--webview-->
+    <string name="web_view_title">WebView</string>
+
+    <!--Kotlin-->
+    <string name="kotlin_title">Kotlin</string>
+
+    <!--Tree-->
+    <string name="tree_title">Tree</string>
+</resources>
