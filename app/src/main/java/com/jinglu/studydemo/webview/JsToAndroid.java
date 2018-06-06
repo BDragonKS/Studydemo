@@ -20,7 +20,7 @@ import android.widget.Toast;
  */
 public class JsToAndroid {
 
-    Context mContext;
+    private Context mContext;
 
     public JsToAndroid(Context context) {
         mContext = context;
@@ -28,6 +28,6 @@ public class JsToAndroid {
 
     @JavascriptInterface
     public void test() {
-        Toast.makeText(mContext, "测试js调用Android方法", Toast.LENGTH_SHORT).show();
+        Toast.makeText(mContext, "测试JS调用Android方法", Toast.LENGTH_SHORT).show();
     }
 }
