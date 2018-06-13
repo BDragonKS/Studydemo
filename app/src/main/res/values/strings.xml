@@ -13,6 +13,7 @@
     <string name="nav_menu_demo_title_kotlin">Kotlin</string>
     <string name="nav_menu_demo_title_tree">Tree</string>
     <string name="nav_menu_demo_title_web_view">WebView</string>
+    <string name="nav_menu_demo_title_two_dimensional_array">TwoDimensionalArray</string>
 
     <!--webview-->
     <string name="web_view_title">WebView</string>
@@ -22,4 +23,10 @@
 
     <!--Tree-->
     <string name="tree_title">Tree</string>
+
+    <!--二维数组json解析-->
+    <string name="two_dimensional_array_title">TwoDimensionalArray</string>
+    <string name="two_dimensional_array_json">Json字符串</string>
+    <string name="two_dimensional_array_json_value">[\n [\n  \"java\",\n   \"kotlin\",\n   \"c++\"\n ]\n]</string>
+    <string name="two_dimensional_array_json_result">解析结果</string>
 </resources>

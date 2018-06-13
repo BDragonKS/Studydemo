@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           package="com.jinglu.studydemo">
+
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
@@ -25,6 +26,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".webview.WebViewActivity">
+        </activity>
+        <activity android:name=".twodimensionalarray.TwoDimensionalArrayActivity">
         </activity>
     </application>
 

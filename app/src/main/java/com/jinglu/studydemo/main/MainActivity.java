@@ -3,6 +3,7 @@ package com.jinglu.studydemo.main;
 import com.jinglu.studydemo.R;
 import com.jinglu.studydemo.kotlin.KotlinActivity;
 import com.jinglu.studydemo.tree.TreeDemoActivity;
+import com.jinglu.studydemo.twodimensionalarray.TwoDimensionalArrayActivity;
 import com.jinglu.studydemo.webview.WebViewActivity;
 import com.longruan.appframe.utils.HrefUtil;
 
@@ -106,6 +107,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_web_view) {
 
             HrefUtil.getInstance().hrefActivity(this, WebViewActivity.class);
+        } else if (id == R.id.nav_two_dimensional_array) {
+
+            HrefUtil.getInstance().hrefActivity(this, TwoDimensionalArrayActivity.class);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

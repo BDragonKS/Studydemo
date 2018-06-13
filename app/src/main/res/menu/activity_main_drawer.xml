@@ -14,6 +14,9 @@
             <item
                     android:id="@+id/nav_web_view"
                     android:title="@string/nav_menu_demo_title_web_view"/>
+            <item
+                    android:id="@+id/nav_two_dimensional_array"
+                    android:title="@string/nav_menu_demo_title_two_dimensional_array"/>
         </menu>
     </item>
 
